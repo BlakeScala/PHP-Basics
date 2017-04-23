@@ -1,11 +1,13 @@
 <?php
+  $message = "Hello World!";
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title>PHP Test Page</title>
+    <title></title>
   </head>
   <body>
-  <h1> Hello, today is <?php echo date('l, F jS, Y'); ?><h1>
- </body>
+    <h1> <?php echo $message; ?><h1>
+  </body>
 </html>
-?>
