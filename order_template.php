@@ -7,7 +7,6 @@
   $northwest_order = "500 Cups";
   $south_order = "1000 Cups";
 ?>
-
 <html>
   <head>
     <title>Order Form</title>
