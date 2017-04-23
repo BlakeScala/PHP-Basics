@@ -1,5 +1,7 @@
 <?php
-  $message = "Hello World!";
+  $message = "Hello";
+  $friend_name = "Nick"
+  $friend_name_two = "Blake"
 ?>
 
 <!DOCTYPE html>
@@ -9,6 +11,6 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1> <?php echo $message; ?><h1>
+    <h1> <?php echo $message; ?> <?php echo $friend_name ?><h1>
   </body>
 </html>
