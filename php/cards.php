@@ -1,6 +1,7 @@
 <?php
   $suits = array("Hearts", "Clubs", "Diamonds", "Spades");
   $values = array("Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace");
+  $cards = array();
 ?>
 
 <!DOCTYPE html>
@@ -15,8 +16,14 @@
         <?php
             foreach ($suits as $suit) {
                 foreach ($values as $value) {
-                  echo "<li>" . $value . " of " . $suit . "</li>";
+                  array_push($cards, $value . " of " . $suit);
                 }
+            }
+
+            shuffle($cards);
+
+            foreach ($cards as $card) {
+              echo "<li>" . $card . "</li>";
             }
         ?>
     </ul>
