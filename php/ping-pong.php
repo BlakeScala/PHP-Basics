@@ -1,5 +1,5 @@
 <?php
-  $input = intval($_GET["inputNumber"]);
+  $input = $_GET["inputNumber"];
 ?>
 
 <!DOCTYPE html>
